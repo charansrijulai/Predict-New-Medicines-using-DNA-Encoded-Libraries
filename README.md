@@ -3,9 +3,8 @@ The objective of this capstone project is to enhance small molecule binding pred
 
 
 The distribution of smiles that binds with different protein names (BRD4, HSA, sEH) are: 
-- The distribution on the left represents the training and validation datasets
-- The distribution on the right corresponds to the evaluation dataset
-![combined_viz](https://github.com/user-attachments/assets/63a3630c-9c7c-4e60-bcdc-9b0f49ac0c89)
+![train_viz](https://github.com/user-attachments/assets/d3b48540-2be1-4190-8e41-8ead33a2300e)
+
 
 
 The BELKA dataset can be found here -> [BELKA Dataset](https://www.kaggle.com/competitions/leash-BELKA/data?select=train.csv)
