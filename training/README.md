@@ -82,10 +82,6 @@ export BUCKET_NAME=<YOUR_BUCKET_NAME>
 export ARTIFACT_REGISTRY=<YOUR_ARTIFACT_REGISTRY>
 ```
 
-### Step 3: Run the Training Pipeline
-```bash
-python train_pipeline.py
-```
 
 ---
 
