@@ -15,6 +15,7 @@ This document outlines the steps taken to process and prepare the dataset for ma
    - The dataset was converted from long format to wide format to save space:
      - Long format: **1.4 GB**
      - Wide format: **460 MB**
+   - This process helped us save memory by 45%
 
 4. **Preprocessing in Wide Format:**
    - To save computation time, Morgan fingerprinting analysis was applied to each SMILES molecule only once in the wide format (instead of three times in the long format).
