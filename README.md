@@ -6,6 +6,7 @@ The distribution of smiles that binds with different protein names (BRD4, HSA, s
 ![venn_diagram_smiles_proteins](https://github.com/user-attachments/assets/6a3e9ffe-d945-47b6-8c4a-90cc74fe4b09)
 
 The distribution of smiles that binds with different protein names (BRD4, HSA, sEH) in test data is: 
-![image](https://github.com/user-attachments/assets/3eaabc77-ab62-46b8-b2db-370d15cca4fa)
+![image](https://github.com/user-attachments/assets/5c52e7ec-77df-43fc-bc03-666a3abe524e)
+
 
 The BELKA dataset can be found here -> [BELKA Dataset](https://www.kaggle.com/competitions/leash-BELKA/data?select=train.csv)
