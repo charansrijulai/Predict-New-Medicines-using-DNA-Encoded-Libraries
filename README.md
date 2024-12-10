@@ -8,3 +8,11 @@ The distribution of smiles that binds with different protein names (BRD4, HSA, s
 
 
 The BELKA dataset can be found here -> [BELKA Dataset](https://www.kaggle.com/competitions/leash-BELKA/data?select=train.csv)
+
+# Project Architecture
+
+![workflow](https://github.com/user-attachments/assets/e69bb8e0-9461-415d-b8a8-d20720fd3ba2)
+
+The workflow begins with loading raw Parquet files into Google Cloud Storage, followed by preprocessing tasks like deduplication, encoding (Morgan fingerprints, ECFP), and transforming data from long to wide formats. EDA is performed to generate molecular descriptors, compute a correlation matrix, and prepare features for model training.
+Machine learning models (e.g., Logistic Regression, Random Forest, CatBoost, XGBoost) are trained, and the best-performing model is deployed via an artifact registry, served through FastAPI and Streamlit for user interaction.
+
