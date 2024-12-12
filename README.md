@@ -12,6 +12,9 @@ The objective of this capstone project is to enhance small molecule binding pred
 - protein_name - The protein target names includes (BRD4, HSA and sEH) 
 - binds - The target column. A binary class label of whether the small  molecule binds to the protein.
 
+![image](https://github.com/user-attachments/assets/fec46c08-3808-4b28-b66b-cea2a340c6d9)
+
+
 Each SMILE molecule has been duplicated three times to evaluate its interactions with three distinct proteins: HSA, BRD4, and sEH.
 
 
